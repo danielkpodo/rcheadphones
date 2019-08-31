@@ -164,7 +164,80 @@ img {
   width: 100%;
   height: 100%;
 }
+/* footer section */
 
+.section-footer {
+  padding: 4rem 0;
+  color: #fff;
+  background: var(--primary-color);
+}
+
+.section-footer .container {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-gap: 1rem;
+}
+
+.section-footer h2 {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+}
+
+.section-footer h3 {
+  margin: 0.7rem;
+}
+
+.section-footer a {
+  line-height: 1.9;
+  color: #ccc;
+}
+
+.section-footer a > i {
+  color: #555;
+  margin-right: 0.5rem;
+}
+
+.email-form {
+  width: 100%;
+  display: inline-block;
+  background: #555;
+  border-radius: 20px;
+  position: relative;
+  line-height: 0;
+  margin-top: 1rem;
+}
+
+.email-form .form-control {
+  display: inline-block;
+  border: 0;
+  outline: 0;
+  color: #ddd;
+  font-size: 1rem;
+  background: transparent;
+  font-family: inherit;
+  padding: 0 3rem 0 1.5rem;
+  height: 45px;
+  border-radius: 20px;
+}
+
+.email-form .submit {
+  display: inline-block;
+  position: absolute;
+  border: 0;
+  top: 0;
+  right: 0;
+  outline: 0;
+  width: 45px;
+  height: 45px;
+  margin: 0;
+  background: #eee;
+  color: #333;
+  text-align: center;
+  padding: 0;
+  font-size: 1rem;
+  cursor: pointer;
+  border-radius: 0 20px 20px 0px;
+}
 /* utility classes  */
 
 .btn {
