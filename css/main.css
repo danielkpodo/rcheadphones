@@ -307,3 +307,18 @@ img {
     display: none;
   }
 }
+
+@media screen and (max-width: 500px) {
+  .section-footer .container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+  }
+}
+
+@media screen and (max-width: 920px) {
+  .section-footer .container {
+    grid-template-columns: 1fr 1fr;
+  }
+}
