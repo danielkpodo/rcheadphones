@@ -178,13 +178,11 @@ img {
   grid-gap: 1rem;
 }
 
-.section-footer h2 {
-  font-size: 2rem;
-  margin-bottom: 1rem;
-}
-
 .section-footer h3 {
-  margin: 0.7rem;
+  font-size: 1.5rem;
+  margin-bottom: 1rem;
+  font-family: consolas;
+  font-weight: 400;
 }
 
 .section-footer a {
